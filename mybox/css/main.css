@@ -27,7 +27,7 @@ input {
 	display: block;
 	clear:both;
 }
-.menu, .head-row, .search, .logos {
+.menu, .head-row, .search, .logos, .basic, .premium, .ultra {
 	display: flex;
 }
 .title, .menu, .nav-menu, .page-subtitle, .delivery{
@@ -237,7 +237,12 @@ input {
     margin: auto;
 }
 
-
+.basic {
+    margin-top: 40px;
+}
+.premium, .ultra {
+    margin-top: 20px;
+}
 
 @media screen and (min-width: 350px){
     .title {
